@@ -101,4 +101,13 @@ if st.button("Get Answer"):
 # -------------------------------
 # Footer
 # -------------------------------
-st.markdown("---")
+st.markdown(
+    """
+    <div style="margin-top:40px; padding-top:10px; border-top:1px solid #2c2c2c;
+                text-align:center; font-size:0.85rem; color:#9aa0a6;">
+        Built with RAG, LangChain, FAISS & Streamlit
+
+            </div>
+    """,
+    unsafe_allow_html=True
+)
