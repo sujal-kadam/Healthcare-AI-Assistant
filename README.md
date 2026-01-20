@@ -43,8 +43,10 @@ pip install -r requirements.txt
 OPENAI_API_KEY=your_openai_api_key
 
 # Ingest Documents & Build Vector Store
+```bash 
 python ingest.py
 python vector_store.py
+```
 
 # Run the Application
 ```bash
